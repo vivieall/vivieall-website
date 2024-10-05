@@ -134,27 +134,28 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "Sept 2024 - Present",
     points: [
-      "Leading development and integration of web and mobile applications using modern frameworks like React, Astro, Next.js, and NestJS.",
+      "Leading development and integration of web applications using modern frameworks like React, Astro, Next.js, and Strapi.",
       "Collaborating with cross-functional teams to deliver high-quality products on time.",
-      "Mentoring junior developers to enhance their skills in fullstack development.",
-      "Driving SEO performance.",
+      "Developing responsive and adaptive websites for optimized user experience across devices.",
+      "Driving SEO optimization efforts to enhance web performance and visibility.",
+      "Generation of E2E tests and SonarQube reports to improve code quality."
     ],
   },
   {
     title: "Fullstack Instructor",
-    companyName: "Henry",
+    companyName: "HENRY",
     icon: henry,
     iconBg: "#383E56",
     date: "July 2024 - Present",
     points: [
       "Teaching frontend programming, including React, Next.js, and backend development with Express and Mongoose DB.",
-      "Mentoring students in fullstack development concepts, best practices, and coding standards.",
       "Conducting workshops on NestJS, TypeORM, PostgreSQL, and Docker, empowering students to master backend development.",
+      "Mentoring students in fullstack development concepts, best practices, and coding standards.",
     ],
   },
   {
     title: "Software Development Engineer",
-    companyName: "ICONO-I",
+    companyName: "ICONOI",
     icon: iconoi,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Sept 2024",
@@ -167,7 +168,7 @@ const experiences: TExperience[] = [
   },
   {
     title: "JavaScript Coach",
-    companyName: "Laboratoria",
+    companyName: "LABORATORIA",
     icon: laboratoria,
     iconBg: "#383E56",
     date: "March 2023 - June 2024",
@@ -179,7 +180,7 @@ const experiences: TExperience[] = [
   },
   {
     title: "Software Engineer",
-    companyName: "ICONO-I",
+    companyName: "ICONOI",
     icon: iconoi,
     iconBg: "#E6DEDD",
     date: "Sept 2022 - Jan 2023",
@@ -187,17 +188,18 @@ const experiences: TExperience[] = [
       "Led the creation and improvement of user stories and use cases to align technical requirements with user needs.",
       "Developed and maintained applications using Java Spring Boot and Angular.",
       "Utilized testing frameworks such as JUnit and JMeter to ensure reliability and performance.",
+      "Developed UML diagrams for the analysis and design phase"
     ],
   },
   {
     title: "Fullstack Developer Jr.",
-    companyName: "IKBO - Corporate Services",
+    companyName: "IKBO",
     icon: ikbo,
     iconBg: "#383E56",
     date: "Jan 2022 - Sept 2022",
     points: [
       "Led the development of mobile applications using React Native.",
-      "Developed web applications leveraging Vue.js and PHP for the flower industry.",
+      "Developed web applications leveraging React, Vue.js and PHP for the flower industry.",
       "Collaborated on backend and frontend optimization to improve user experience.",
     ],
   },
@@ -216,12 +218,12 @@ const experiences: TExperience[] = [
   },
   {
     title: "Web Developer Intern",
-    companyName: "Welcome English",
+    companyName: "WELCOME ENGLISH",
     icon: welcome,
     iconBg: "#383E56",
     date: "Dec 2019 - March 2020",
     points: [
-      "Developed web pages using CSS, HTML5, Bootstrap, and JavaScript.",
+      "Developed web pages using CSS, HTML5, Bootstrap, and React.",
       "Created multimedia designs using Adobe Suite tools such as Photoshop, Illustrator, and Premiere Pro.",
       "Provided IT support, addressing technical issues and troubleshooting website problems.",
     ],
