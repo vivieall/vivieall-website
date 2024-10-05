@@ -26,7 +26,6 @@ import jquery from "./tech/jquery.png";
 import astro from "./tech/astro.png";
 import sass from "./tech/sass.png";
 import bootstrap from "./tech/bootstrap.png";
-import webpack from "./tech/webpack.png";
 import unity from "./tech/unity.png";
 
 import meta from "./company/meta.png";
@@ -69,7 +68,6 @@ export {
   tailwind,
   typescript,
   unity,
-  webpack,
   bootstrap,
   sass,
   astro,
