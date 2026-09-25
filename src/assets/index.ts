@@ -38,6 +38,7 @@ import ikbo from "./company/ikbo.jpeg";
 import iconoi from "./company/iconoi.jpeg";
 import laboratoria from "./company/laboratoria.jpeg";
 import henry from "./company/henry.jpeg";
+import hilton from "./hilton.png";
 import rcn from "./company/rcn.jpeg";
 import sunat from "./company/sunat.jpeg";
 
@@ -91,5 +92,6 @@ export {
   iconoi,
   laboratoria,
   henry,
-  rcn
+  rcn,
+  hilton
 };

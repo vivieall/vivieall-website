@@ -14,24 +14,27 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
+  tailwind,
+  nextjs,
   nodejs,
   git,
   figma,
   docker,
+  mongodb,
   carrent,
   jobit,
   tripguide,
   angular,
   vuejs,
   astro,
+  sass,
+  unity,
   henry,
   iconoi,
   ikbo,
   laboratoria,
+  hilton,
   rcn,
   sunat,
   welcome,
@@ -54,32 +57,24 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Technical Leadership",
+    icon: creator,
+  },
+  {
+    title: "Senior Frontend Architecture",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "High-Concurrency Backend",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Media & Digital Products",
+    icon: mobile,
   },
 ];
 
 const technologies: TTechnology[] = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -93,19 +88,23 @@ const technologies: TTechnology[] = [
     icon: reactjs,
   },
   {
-    name: "angular",
+    name: "Next.js",
+    icon: nextjs,
+  },
+  {
+    name: "Angular",
     icon: angular,
   },
   {
-    name: "vue",
+    name: "Vue.js",
     icon: vuejs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
-    name: "astro",
+    name: "Astro",
     icon: astro,
   },
   {
@@ -113,119 +112,126 @@ const technologies: TTechnology[] = [
     icon: nodejs,
   },
   {
-    name: "git",
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Sass",
+    icon: sass,
+  },
+  {
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "Senior Developer Engineer",
-    companyName: "RCN TV",
+    title: "Senior Software Engineer",
+    companyName: "Canal RCN Television",
     icon: rcn,
     iconBg: "#E6DEDD",
-    date: "Sept 2024 - Present",
+    date: "Sep 2024 - Present",
     points: [
-      "Leading development and integration of web applications using modern frameworks like React, Astro, Next.js, and Strapi.",
-      "Collaborating with cross-functional teams to deliver high-quality products on time.",
-      "Developing responsive and adaptive websites for optimized user experience across devices.",
-      "Driving SEO optimization efforts to enhance web performance and visibility.",
-      "Generation of E2E tests and SonarQube reports to improve code quality."
+      "Lead high-traffic live media products for voting, contests and prediction modules across major broadcast and digital audience campaigns.",
+      "Scaled backend components for peak audience traffic, including migration of critical services from Node.js to Go for stronger throughput and resilience.",
+      "Built consumer-facing experiences with Next.js and React, improving SEO, performance and audience engagement across audiovisual content-driven web properties.",
+      "Implemented custom Strapi and Payload CMS workflows with SSO, role-based access control and modern SSR/RSC delivery for editorial and audiovisual content operations.",
+      "Automated quality and analytics workflows with Playwright, Testify, SonarQube, Python, AWS Glue, Athena and S3.",
     ],
   },
   {
-    title: "Fullstack Instructor",
-    companyName: "HENRY",
-    icon: henry,
+    title: "Senior Web UI Engineer / Technical Lead",
+    companyName: "Hilton Worldwide",
+    icon: hilton,
     iconBg: "#383E56",
-    date: "July 2024 - Present",
+    date: "Oct 2024 - Present",
     points: [
-      "Teaching frontend programming, including React, Next.js, and backend development with Express and Mongoose DB.",
-      "Conducting workshops on NestJS, TypeORM, PostgreSQL, and Docker, empowering students to master backend development.",
-      "Mentoring students in fullstack development concepts, best practices, and coding standards.",
+      "Design and develop scalable booking experiences for Hilton Resorts Web using React, TypeScript and GraphQL inside an Nx monorepo.",
+      "Build reusable UI architecture patterns with a strong focus on WCAG accessibility, performance, maintainability and responsive booking flows.",
+      "Provide technical leadership for the contractor engineering team through code reviews, engineering standards and implementation decisions.",
+      "Implement Conductrics A/B testing experiments to optimize conversion-focused customer journeys.",
+    ],
+  },
+  {
+    title: "Full Stack Instructor",
+    companyName: "Henry Tech",
+    icon: henry,
+    iconBg: "#E6DEDD",
+    date: "Dec 2023 - Nov 2024",
+    points: [
+      "Trained students in React, Next.js, Node.js, Express, MongoDB and SQL with production-ready software engineering practices.",
+      "Mentored students through code reviews, REST APIs, TypeORM, Docker and problem-solving for professional software development roles.",
     ],
   },
   {
     title: "Software Development Engineer",
-    companyName: "ICONOI",
+    companyName: "ICONOI S.A.",
     icon: iconoi,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Sept 2024",
+    iconBg: "#383E56",
+    date: "Sep 2022 - Sep 2024",
     points: [
-      "Maintained and enhanced legacy applications using Grails, Groovy, and Angular.",
-      "Collaborated with the J2 team at Consensus Cloud Solutions to ensure applications remained functional and adaptable.",
-      "Led frontend development with Angular, focusing on intuitive and responsive UI design.",
-      "Improved application robustness and scalability through backend development with Java Spring Boot.",
+      "Developed production applications for international clients with Angular, TypeScript, Java Spring Boot, Grails, Groovy and GraphQL.",
+      "Contributed to an Inter-American Development Bank platform for educational resource management across LATAM.",
+      "Produced SRS documentation, UML diagrams and BPMN process models to align stakeholders and support architecture decisions.",
+      "Supported modernization initiatives across legacy systems, reducing maintenance risk and improving long-term scalability.",
     ],
   },
   {
     title: "JavaScript Coach",
-    companyName: "LABORATORIA",
+    companyName: "Laboratoria",
     icon: laboratoria,
-    iconBg: "#383E56",
-    date: "March 2023 - June 2024",
-    points: [
-      "Coached female developers in JavaScript, HTML, CSS, and web development technologies.",
-      "Delivered hands-on training sessions with React, Angular, and Node.js, ensuring a comprehensive learning experience.",
-      "Supported backend development with Java Spring Boot and testing frameworks like Jest and JUnit.",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    companyName: "ICONOI",
-    icon: iconoi,
     iconBg: "#E6DEDD",
-    date: "Sept 2022 - Jan 2023",
+    date: "Mar 2023 - Jun 2024",
     points: [
-      "Led the creation and improvement of user stories and use cases to align technical requirements with user needs.",
-      "Developed and maintained applications using Java Spring Boot and Angular.",
-      "Utilized testing frameworks such as JUnit and JMeter to ensure reliability and performance.",
-      "Developed UML diagrams for the analysis and design phase"
+      "Delivered hands-on training across JavaScript, HTML, CSS, React, Angular, Node.js, Jest, Java and Spring Boot.",
+      "Mentored students through projects, code reviews, technical problem-solving and autonomous learning in remote environments.",
     ],
   },
   {
-    title: "Fullstack Developer Jr.",
-    companyName: "IKBO",
+    title: "Mid-Level Software Developer",
+    companyName: "IKBO S.A.",
     icon: ikbo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Sept 2022",
+    date: "Jan 2022 - Sep 2022",
     points: [
-      "Led the development of mobile applications using React Native.",
-      "Developed web applications leveraging React, Vue.js and PHP for the flower industry.",
-      "Collaborated on backend and frontend optimization to improve user experience.",
+      "Developed a React Native mobile application for harvest and flower distribution management.",
+      "Built and maintained web applications using Vue.js, React and Laravel/PHP, contributing to UX improvements and reliable delivery.",
     ],
   },
   {
-    title: "Programmer Analyst",
+    title: "Analyst Developer",
     companyName: "SUNAT",
     icon: sunat,
     iconBg: "#E6DEDD",
-    date: "March 2020 - March 2022",
+    date: "Mar 2020 - Mar 2022",
     points: [
-      "Specialized in low-code application development using Microsoft PowerApps and Power Automate.",
-      "Developed robust web applications with Vue.js and Java Spring Boot.",
-      "Led UI/UX design with Balsamiq and Adobe XD, enhancing user experience.",
-      "Developed data analytics solutions with PL/SQL Oracle and Excel macros.",
+      "Developed internal digital solutions with Microsoft Power Platform, Vue.js, JavaScript and Java Spring Boot.",
+      "Performed data analysis and reporting with PL/SQL, Oracle, Excel macros and complex queries.",
+      "Designed wireframes, prototypes and documentation to support decision-making and cross-functional delivery.",
     ],
   },
   {
-    title: "Web Developer Intern",
-    companyName: "WELCOME ENGLISH",
+    title: "Web UI Developer Intern",
+    companyName: "Welcome English",
     icon: welcome,
     iconBg: "#383E56",
-    date: "Dec 2019 - March 2020",
+    date: "Dec 2019 - Mar 2020",
     points: [
-      "Developed web pages using CSS, HTML5, Bootstrap, and React.",
-      "Created multimedia designs using Adobe Suite tools such as Photoshop, Illustrator, and Premiere Pro.",
-      "Provided IT support, addressing technical issues and troubleshooting website problems.",
+      "Built responsive web pages with HTML5, CSS, Bootstrap and JavaScript.",
+      "Created multimedia assets with Adobe XD, Illustrator, Photoshop and Premiere Pro to improve usability and visual consistency.",
     ],
   },
 ];
@@ -243,64 +249,67 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "",
-    description: "",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "",
-    description: "",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
-  },
-  {
-    name: "",
-    description: "",
+    name: "Live Media & Audience Engagement Platforms",
+    description:
+      "Voting, contests and prediction modules for high-traffic broadcast and digital campaigns, combining intuitive UX, resilient services and real-time audience operations.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "go",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "aws",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://vivieall.dev",
+  },
+  {
+    name: "Hilton Resorts Booking Experience",
+    description:
+      "Accessible, responsive and conversion-focused booking flows built with React, TypeScript, GraphQL, Nx and Conductrics experimentation.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "a11y",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    sourceCodeLink: "https://www.linkedin.com/in/angelesviviana",
+  },
+  {
+    name: "Audiovisual CMS, Data & AI Workflows",
+    description:
+      "Custom Strapi and Payload CMS, AWS Glue/Athena/S3 data pipelines, automated testing and AI-assisted workflows for audiovisual content delivery.",
+    tags: [
+      {
+        name: "strapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ai",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/vivieall",
   },
 ];
 

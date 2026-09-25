@@ -25,16 +25,16 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
     <div className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="green-pink-gradient shadow-card w-full rounded-[20px] p-[1px]"
+        className="green-pink-gradient shadow-card w-full rounded-lg p-[1px]"
       >
-        <div className="bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
+        <div className="bg-tertiary flex min-h-[220px] flex-col items-center justify-center gap-6 rounded-lg px-6 py-5">
           <img
             src={icon}
             alt="web-development"
             className="h-16 w-16 object-contain"
           />
 
-          <h3 className="text-center text-[20px] font-bold text-white">
+          <h3 className="text-center text-[18px] font-bold leading-7 text-white">
             {title}
           </h3>
         </div>
@@ -55,7 +55,7 @@ const About = () => {
         {config.sections.about.content}
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
+      <div className="mt-14 flex flex-wrap gap-6 max-sm:justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

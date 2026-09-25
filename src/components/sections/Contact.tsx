@@ -71,10 +71,32 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="bg-black-100 flex-[0.75] rounded-2xl p-8"
+        className="bg-black-100 flex-[0.75] rounded-lg p-8"
       >
         <Header useMotion={false} {...config.contact} />
-        <a className='text-yellow-400' href="https://www.linkedin.com/in/angelesviviana" target="_blank">Just, click here!</a>
+        <div className="mt-8 flex flex-col gap-4 text-[15px] leading-7 text-secondary">
+          <p>
+            Open to senior engineering, technical leadership and digital product
+            initiatives across audiovisual media, content platforms, travel and
+            AI-assisted delivery.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <a
+              className="rounded bg-[#00cea8] px-4 py-3 font-bold text-primary transition hover:bg-white"
+              href="https://www.linkedin.com/in/angelesviviana"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="rounded border border-white/20 px-4 py-3 font-bold text-white transition hover:border-[#00cea8] hover:text-[#00cea8]"
+              href={`mailto:${config.html.email}`}
+            >
+              {config.html.email}
+            </a>
+          </div>
+        </div>
       {/*
         <form
           ref={formRef}

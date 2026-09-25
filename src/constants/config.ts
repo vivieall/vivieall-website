@@ -12,8 +12,15 @@ type TConfig = {
   };
   hero: {
     name: string;
+    headline: string;
     p: string[];
     cv: string;
+    cvUrl: string;
+    badges: string[];
+    metrics: {
+      value: string;
+      label: string;
+    }[];
   };
   contact: {
     form: {
@@ -47,8 +54,20 @@ export const config: TConfig = {
   },
   hero: {
     name: "Viviana Angeles",
-    p: [" a Software Engineer with an MBA. I develop fullstack applications (web and mobile) with a business mindset and creative touch."],
+    headline: "Tech Lead | Senior Software Engineer | MBA",
+    p: [
+      "a Tech Lead and Senior Software Engineer with an MBA.",
+      "I build audiovisual media, digital content products and fullstack platforms with a business mindset and creative touch.",
+    ],
     cv: "Download my resume here.",
+    cvUrl:
+      "https://drive.google.com/file/d/1ydblwznZ0GlKXJdGRtvsLJXliNJpT4ir/view?usp=drive_link",
+    badges: ["Audiovisual Media & Content", "AI-assisted workflows", "Bogota, Colombia"],
+    metrics: [
+      { value: "7", label: "Years building media products" },
+      { value: "2", label: "Current senior roles" },
+      { value: "C1", label: "English level" },
+    ],
   },
   contact: {
     p: "Get in touch",
@@ -68,28 +87,21 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software engineer with over five years of experience in 
-      fullstack development, mentoring, and technology coaching. I excel in 
-      JavaScript, TypeScript, and frameworks like React, Angular, Node.js, 
-      and Next.js. My passion lies in delivering scalable and efficient solutions, 
-      while maintaining a strong focus on user experience and business impact.`,
+      h2: "Product-minded engineering leader.",
+      content: `Lead Software Engineer with nearly 7 years of experience building scalable, consumer-facing digital products and leading cross-functional technical initiatives. I specialize in React, TypeScript, Next.js, Go, AWS, high-concurrency systems, data pipelines and cloud-based product development for audiovisual media, streaming-adjacent workflows, content platforms, travel and interactive audience products. I combine hands-on engineering with an MBA in Technological Innovation, AI-assisted development workflows and strong stakeholder alignment.`,
     },
     experience: {
       p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: "Leadership and delivery.",
     },
     feedbacks: {
       p: "What others say",
       h2: "Testimonials.",
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `The following projects showcase my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos. They reflect my ability to solve
-    complex problems, work with various technologies, and manage projects effectively.`,
+      p: "Selected impact",
+      h2: "Media product systems.",
+      content: `A focused look at the product areas I lead and build: live media engagement, audiovisual content workflows, high-concurrency backends, CMS platforms, booking experiences, data pipelines and AI-assisted engineering workflows.`,
     },
   },
 };
@@ -102,8 +114,20 @@ export const configEs: TConfig = {
   },
   hero: {
     name: "Viviana Angeles",
-    p: ["Soy una Ingeniera de Software con un MBA. Desarrollo aplicaciones fullstack (web y móvil) con una mentalidad empresarial y un toque creativo."],
-    cv: "Descarga mi currículum aquí.",
+    headline: "Tech Lead | Senior Software Engineer | MBA",
+    p: [
+      "Soy Tech Lead y Senior Software Engineer con un MBA.",
+      "Construyo productos audiovisuales, plataformas de contenido digital y soluciones fullstack con vision de negocio y toque creativo.",
+    ],
+    cv: "Descarga mi curriculum aqui.",
+    cvUrl:
+      "https://drive.google.com/file/d/1ydblwznZ0GlKXJdGRtvsLJXliNJpT4ir/view?usp=drive_link",
+    badges: ["Audiovisual Media & Content", "AI-assisted workflows", "Bogota, Colombia"],
+    metrics: [
+      { value: "7", label: "Años creando productos media" },
+      { value: "2", label: "Roles senior actuales" },
+      { value: "C1", label: "Nivel de ingles" },
+    ],
   },
   contact: {
     p: "Ponte en contacto",
@@ -123,26 +147,21 @@ export const configEs: TConfig = {
   sections: {
     about: {
       p: "Introducción",
-      h2: "Resumen.",
-      content: `Soy una ingeniera de software con más de cinco años de experiencia en desarrollo fullstack, 
-      mentoría y coaching tecnológico. Domino JavaScript, TypeScript, y frameworks como React, Angular, Node.js 
-      y Next.js. Mi pasión radica en entregar soluciones escalables y eficientes, con un fuerte enfoque en la 
-      experiencia del usuario y el impacto en el negocio.`,
+      h2: "Liderazgo tecnico orientado a producto.",
+      content: `Lead Software Engineer con casi 7 años de experiencia construyendo productos digitales escalables y liderando iniciativas tecnicas cross-functional. Me especializo en React, TypeScript, Next.js, Go, AWS, sistemas de alta concurrencia, pipelines de datos y desarrollo cloud para media audiovisual, flujos cercanos a streaming, plataformas de contenido, travel y productos interactivos. Combino ejecucion tecnica, MBA en Innovacion Tecnologica, flujos de AI-assisted development y alineamiento con stakeholders.`,
     },
     experience: {
       p: "Mi experiencia",
-      h2: "Experiencia laboral.",
+      h2: "Liderazgo y delivery.",
     },
     feedbacks: {
       p: "Lo que otros dicen",
       h2: "Testimonios.",
     },
     works: {
-      p: "Mi trabajo",
-      h2: "Proyectos.",
-      content: `Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales de mi trabajo. 
-      Cada proyecto está brevemente descrito con enlaces a repositorios de código y demostraciones en vivo. Reflejan mi 
-      capacidad para resolver problemas complejos, trabajar con diferentes tecnologías y gestionar proyectos de manera efectiva.`,
+      p: "Impacto seleccionado",
+      h2: "Sistemas para media products.",
+      content: `Una mirada enfocada a las areas de producto que lidero y construyo: engagement en vivo, flujos de contenido audiovisual, backends de alta concurrencia, CMS, experiencias de booking, pipelines de datos y flujos de ingenieria asistidos por IA.`,
     },
   },
 };
