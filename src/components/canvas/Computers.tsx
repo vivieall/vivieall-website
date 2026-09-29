@@ -34,7 +34,11 @@ const ComputersCanvas = () => {
   }, []);
 
   return isMobile ? null : (
-    <div className="pointer-events-none absolute bottom-0 left-0 z-0 h-[55vh] w-full">
+    <div className="absolute bottom-0 left-0 z-0 h-[55vh] w-full overflow-visible">
+      <div
+        className="h-full w-full cursor-zoom-in transition-transform duration-700 ease-out hover:scale-[1.12] group-hover/hero:scale-[1.12]"
+        style={{ transformOrigin: "50% 38%", willChange: "transform" }}
+      >
       <Canvas
         className="h-full w-full"
         style={{ background: "transparent" }}
@@ -58,6 +62,7 @@ const ComputersCanvas = () => {
         </Suspense>
         <Preload all />
       </Canvas>
+      </div>
     </div>
   );
 };

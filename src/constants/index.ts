@@ -267,7 +267,7 @@ const projects: TProject[] = [
       },
     ],
     image: carrent,
-    sourceCodeLink: "https://vivieall.dev",
+    sourceCodeLink: "https://lacasadelosfamososcolombia.canalrcn.com/",
   },
   {
     name: "Hilton Resorts Booking Experience",
@@ -288,7 +288,8 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://www.linkedin.com/in/angelesviviana",
+    sourceCodeLink:
+      "https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=BNADUDT&arrivalDate=2026-03-27&departureDate=2026-03-28&room1NumAdults=1",
   },
   {
     name: "Audiovisual CMS, Data & AI Workflows",
@@ -309,7 +310,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/vivieall",
+    sourceCodeLink: "https://strapi.io/",
   },
 ];
 
